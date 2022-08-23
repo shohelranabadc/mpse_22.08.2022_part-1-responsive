@@ -1,0 +1,117 @@
+/* ===================================================================
+
+ =====================================================================*/
+ body{
+    background-color: #EFEFEF;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+br{
+    margin: 30px 0;
+}
+.shadow{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+.rules_h4{
+    text-align: center;
+    padding: 10px
+}
+
+.margin_left_10{
+    margin-left: 10px;
+}
+
+.margin_right_10{
+    margin-right: 10px;
+}
+
+.margin_top_10{
+    margin-top: 10px;
+}
+
+.margin-bottom_10{
+    margin-bottom: 10px;
+}
+
+.margin_left_20{
+    margin-left: 20px;
+}
+
+/* .margin_right_20{
+    margin-right: 20px;
+} */
+
+.margin_top_20{
+    margin-top: 20px;
+}
+
+.margin-bottom_20{
+    margin-bottom: 20px;
+}
+
+
+.containter{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.row_90_per{
+    width: 90%;
+}
+
+.col_50_per{
+    width: 50%;
+}
+
+
+
+
+.display_flex{
+    display: flex;
+}
+
+.display_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.margin_top_bottom{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.margin_left_right{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.margin_1rem{
+    margin: 1rem;
+}
+
+.shadow{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+
+
+/* ---------------------------------------------------------------------
+
+---------------------------------------------------------------------- */
+
+

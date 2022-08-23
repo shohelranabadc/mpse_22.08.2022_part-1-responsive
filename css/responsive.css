@@ -1,0 +1,202 @@
+
+/* ===================================================================
+responsive media divices
+ =====================================================================*/
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+  .col_25_per {
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    padding: 5px;
+    font-weight: 800;
+  }
+
+  .col_25_per .btn_topnav{
+    width: 90%;
+    font-weight: 500;
+  }
+
+  .header_center_div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .logo{
+    width: 80px;
+  }
+
+  .logo img{
+    width: 100%;
+    /* object-fit: cover; */
+  }
+
+  .schools_details h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .schools_details h2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #navbar{
+    display: none;
+  }
+  
+
+  .notice_board{
+    flex-direction: column;
+  }
+
+  .ntc_left, .ntc_right {
+    width: 100%;
+  }
+
+  .row1_col1 {
+    width: 100%;
+    margin-right: 0rem;
+  }
+
+
+.row1_col2 {
+  display: none;
+}
+
+.general_notice_board_container{
+  display: none;
+}
+
+.massage_box_container{
+  flex-direction: column;
+}
+
+.massage_box_width_35_persent{
+  width: 100%;
+}
+
+.massage{
+  /* width: 100%; */
+  flex-direction: column;
+}
+
+.massage p {
+	font-size: 0.9rem;
+	padding: 0.9rem 0.6rem 0rem 0rem;
+}
+
+.principle_massage_box {
+  margin-right: 0rem;
+  margin-top: 0.5rem;
+}
+.read_more{
+  padding-bottom: 0.5rem;
+}
+
+.read_more a{
+  text-decoration: none;
+}
+
+
+.boys_notice_30_persent_container{
+  display: none;
+}
+
+.about_mpsc_70_persent_container{
+  width: 100%;
+}
+
+.academic_calender_full_width_container{
+  display: flex;
+  flex-direction: column;
+}
+
+.academic_calender_30_width_container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.girls_notice_board_container{
+  /* display: none; */
+  width: 100%;
+}
+
+.news_and_event_board_container{
+  display: none;
+}
+  
+
+.academic_calender_70_width_container{
+  width: 7000%;
+  
+}
+
+.left_toolber_button_group{
+  display: none;
+}
+
+.right_toolber{
+  display: none;
+}
+
+.center_toolber{
+  display: flex;
+  justify-content: center;
+}
+
+.calender_toolbar_full_width{
+  justify-content: center;
+}
+
+.today_button {
+	margin-left: -170px;
+}
+
+#table_container {
+	padding: 0rem 1.5rem;
+}
+  
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+ } 
+
+
+/* landscape */
+
+ @media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+    }
+  }
+/* ---------------------------------------------------------------------
+
+---------------------------------------------------------------------- */

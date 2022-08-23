@@ -1,0 +1,896 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    
+}
+
+
+
+#wrapper{
+    width: 100%;
+}
+
+#main_container{
+    width: 100%;
+    margin: 0 auto;
+}
+/* ===================================================================
+Header top start
+ =====================================================================*/
+header{
+width: 100%;
+}
+
+.top_nav_bar {
+    width: 100%;
+    background-color: #5C6151;
+    color: #fff;
+    overflow: hidden;
+}
+
+   
+.row_100_per {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 8px 24px;
+    font-size: 0.875rem;
+}
+
+.row_100_per a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.col_25_per{
+    width: 25%;
+}
+
+.btn_topnav {
+	background: #E3342F;
+	padding: 8px 60px;
+	box-shadow: 3px 4px rgba(0, 0, 0, 0.5);
+	border-radius: 0.25rem;
+	display: inline-block;
+	font-size: 0.875rem;
+}
+
+.btn_topnav:hover{
+    background-color: green;
+}
+/* ---------------------------------------------------------------------
+header top end
+---------------------------------------------------------------------- */
+
+/* header center start */
+.header_center_full_width{
+    width: 100%;
+    background-color: #4B1402;
+    color: #fff;
+    overflow: hidden;
+}
+
+.header_center_div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0.9rem;
+}
+
+.logo {
+	width: 100px;
+	padding: 0.25rem;
+	background-color: #f8fafc;
+	border: 1px solid #dee2e6;
+	border-radius: 0.25rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+.schools_details h1 {
+    font-size: 2.8rem;
+}
+
+/* header center end */
+
+
+/* navigation bar start */
+#navbar{
+    width: 100%;
+    background-color: #4B1402;
+    box-sizing: border-box;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+}
+
+nav ul li:hover a{
+    /* background-color: rgba(0,0,0,0.6); */
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+.dropdown_content a:hover{
+    background-color: #ddd;
+}
+
+.dropdown_content a{
+    display: block;
+    color: #333;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown_content{
+    display:block;
+}
+
+.dropdown_toggle::after {
+	display: inline-block;
+	margin-left: 0.255em;
+	vertical-align: 0.255em;
+	content: "";
+	border-top: 0.3em solid;
+	border-right: 0.3em solid transparent;
+	border-bottom: 0;
+	border-left: 0.3em solid transparent;
+}
+
+/* navigation bar end */
+
+/* Start marquee section */
+.marqu_div{
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.marqu_span{
+    color: red;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.marqu_div a{
+    color: black;
+    text-decoration: none;
+}
+
+.marqu_div a:hover{
+    text-decoration: underline;
+}
+/* End marquee section */
+
+
+
+/* Start Notice Board */
+#notice_board_container{
+    width: 90%;
+    margin: 1rem auto;
+}
+.notice_board {
+    background-color: #fff;
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ntc_left, .ntc_right{
+    width: 50%;
+    margin: 0.5rem;
+}
+
+.ntc_left{
+
+    /* margin-right: 40px; */
+}
+
+.ntc_right{
+    /* margin-left: 40px; */
+}
+
+.notice_board a{
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid green;
+    width: 100%;
+    text-decoration: none;
+    color: red;
+}
+
+.notice_board a:hover{
+    background-color:green;
+    color: #fff;
+    text-decoration: underline;
+}
+/* End Notice Board */
+
+/* start main section */
+#container_of_main_section{
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.row_one_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.row1_col1{
+    width: 70%;
+    margin-right: 0.8rem;
+    display: flex;
+}
+
+
+/* start slide show section */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+  }
+
+.mySlides img{
+    position: relative;
+    border: 3px solid #fff;
+    height: auto;
+}
+
+
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+/* End slide show important info section */
+
+/* start important massage row 1 */
+.row1_col2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-left: 0.8rem;
+}
+
+.row1_col2 h2{
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+
+}
+
+.important_information_link a {
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.important_information_link a:hover{
+    text-decoration: underline;
+}
+
+/* start massage from charmain, principal and genaral notice board */
+.massage_box_container{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+
+.principle_massage_box{
+    margin-right: 1.6rem;
+}
+
+.massage_box_width_35_persent{
+    width: 35%;
+}
+
+
+.massage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.massage img{
+    margin-top: 1.2rem;
+	padding: 0.25rem;
+	background-color: #f8fafc;
+	border: 1px solid #dee2e6;
+	border-radius: 0.25rem;
+	width: 120px;
+	height: 140px;
+    background-size:contain;
+}
+
+
+.massage p{
+    margin-left: 15px;
+    text-align: justify;
+    color: black;
+}
+
+/* general notice board */
+
+.general_notice_board_container{
+    width: 30%;
+    padding: 10px;
+}
+
+.notice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dashed black;
+}
+.left_box{
+    margin: 15px 10px;
+     
+}
+
+.left_box ul{
+    width: 60px;
+    list-style: none;
+}
+
+.left_box ul li{
+    text-align: center;
+    /* padding: 5px 10px; */
+}
+.left_box ul li:nth-child(1){
+    background-color: #900963;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left_box ul li:nth-child(2){
+    background-color: #D3D3D3;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right_box p{
+    color: black;
+}
+
+/* all notice button */
+.all_noitce{
+    position: relative;
+    margin-top: 25px;
+    background-color: #fff;
+    border:1px solid #fff;
+}
+
+.all_noitce a{
+    position: absolute;
+    bottom: 8px;
+    right: 25px;
+    color: red;
+    text-decoration: none;
+}
+
+.all_noitce a:hover{
+    text-decoration: underline;
+}
+
+/* Read more button */
+.read_more{
+    float:right; 
+    margin-top: 1.2rem;
+    padding-right: 0.5rem;
+ }
+/* end genarel notice board */
+
+/* End massage from charmain, principal and genaral notice board */
+
+/* start About mpsc and boys notice board */
+#about_mpsc_full_width_container{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+ 
+.about_mpsc_70_persent_container{
+    width: 70%;
+    padding: 0.5rem;
+}
+
+.boys_notice_30_persent_container{
+    width: 30%;
+}
+/* end About mpsc and boys notice board */
+
+
+/* start academic calender, girls notice and news section */
+#academic_calender_full_width_container{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+
+.academic_calender_70_width_container{
+    width: 70%;
+}
+
+.academic_calender_30_width_container{
+    width: 30%;
+}
+
+.calender_full_width_container{
+    width: 100%;
+}
+
+.calender_toolbar_full_width{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_toolber {
+    max-width: 37%;
+    display: flex;
+    margin: 1rem 0.5rem;
+}
+
+.left_toolber_button_group{
+    background-color: #201d1dea;
+    border-radius: 5px;
+}
+
+.left_toolber_button_group a{
+    /* background-color: #1E1E1E; */
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.left_toolber_button_group a:hover{
+    background-color: black;
+}
+
+.today_button{
+    margin-left: 10px;
+    background-color: #201d1dea;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.today_button:hover{
+    background-color: black;
+}
+
+.center_toolber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.center_toolber h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.center_toolber h2::after{
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: blue;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+
+.right_toolber {
+    max-width: 30%;
+    margin: 1rem 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right_toolber_button_group{
+    background-color: #201d1dea;
+    border-radius: 5px;
+}
+
+.right_toolber_button_group a{
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.right_toolber_button_group a:hover{
+    background-color: black;
+}
+
+#table_container{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-collapse: collapse;
+}
+
+table tr th{
+    text-align: center;
+}
+
+table tr td{
+    text-align: center;
+    height: 100px;
+}
+
+/* end table  */
+
+/* Start girls notice board */
+.academic_calender_30_width_container{
+    width: 30%;
+}
+
+.girls_notice_board_container{
+    width: 100%;
+}
+/* end girls notice board */
+
+/* start news and event */
+.news_and_event_board_container{
+    width: 100%;
+    margin-top: 20px;
+}
+/* end news and event */
+
+
+/* Start Photo Gallary */
+
+#image_gallary_full_width_container{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.image_gallary_container{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.image_group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.single_image_container{
+    width: 180px;
+    height: 160px;
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 5px;
+}
+
+.gallary_single_img{
+    width: 160px;
+    height: 140px;
+    object-fit: contain;
+}
+
+/* Start video gallary */
+#video_gallary_full_width_container{
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+.video_gallary_container{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.video_gallary_group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.single_video{
+    width: 350px;
+}
+
+.video{
+    width: 100%;
+}
+/* End video gallary */
+
+
+/* start location map */
+#location_map_full_width_container{
+    width: 90%;
+    margin: 20px auto;
+}
+/* start location map */
+
+
+/* Start Footer */
+footer{
+    width: 100%;
+    
+}
+
+.top_footer_full_width_container{
+    width: 100%;
+    background-color: #0E1C3F;
+}
+
+.top_footer_90_persent_container{
+    width: 90%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+
+
+.left_top_footer{
+    width: 70%;
+}
+
+.school_logo_footer{
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.school_logo_footer img{
+    /* position: absolute */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left_top_footer h3, p, ul li a{
+    color: #fff;
+    line-height: 1.5;
+}
+
+.left_top_footer ul{
+    list-style-type: none;
+}
+
+.left_top_footer ul li a{
+    text-decoration: none;
+}
+
+.left_top_footer ul li a:hover{
+    text-decoration: underline;
+    color: #243c79;
+    transition: 0.6s;
+}
+.right_top_footer{
+    width: 30%;
+}
+
+.right_top_footer h3, ul li a{
+    color: #fff;
+}
+
+.right_top_footer ul{
+    list-style: none;
+}
+
+.right_top_footer ul li a{
+    text-decoration: none;
+    padding: 15px 0;
+    border-bottom: 1px dashed #333333;
+    display: block;
+    font-size: 14px;
+}
+
+.bottom_footer_full_width_container{
+    width: 100%;
+    background-color: #480404;
+}
+
+.bottom_footer_90_persent_container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+}
+
+.copy_right_section{
+    width: 50%;
+}
+
+.copy_right_section p{
+    color: #675050;
+    font-size: 16px;;
+    display: flex;
+    justify-content: center;
+}
+
+.copy_right_section p > a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.copy_right_section p > a:hover{
+    text-decoration: underline;
+}
+
+
+
+.privacy_policy_section{
+    width: 50%;
+}
+
+.privacy_policy_section ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.privacy_policy_section ul li{
+    color: #675050; 
+}
+
+.privacy_policy_section ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0 5px;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.privacy_policy_section ul li a:hover{
+    text-decoration: underline;
+    color: #675050; 
+}
+/* End Footer */
+
+
+
+
+
+
+
+
+
+/* ===================================================================
+
+ =====================================================================*/
+
+
+ /* ---------------------------------------------------------------------
+
+---------------------------------------------------------------------- */
